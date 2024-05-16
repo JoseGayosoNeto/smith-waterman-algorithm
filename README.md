@@ -18,7 +18,7 @@ Na linha 5 colocar o valor de match
 
 Exemplo de arquivo:
 ```txt
-ATC
+ATCG
 TCG
 -2
 -1
