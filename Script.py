@@ -11,9 +11,9 @@ def inicializar_matriz(seqV, seqH, match, mismatch, gap):
         matriz[-1][j+2] = seqH[j]
 
     for i in range(len(seqV)):
-        matriz[i][1] = (n-i) * -2
+        matriz[i][1] = (n-i) * gap
     for j in range(len(seqH)):
-        matriz[-2][j+2] = (j+1) * -2
+        matriz[-2][j+2] = (j+1) * gap
 
     for i in range(n):
         for j in range(m):
